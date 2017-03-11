@@ -80,8 +80,7 @@ require get_template_directory() . '/inc/editor.php';
  * @return string (Maybe) modified "read more" excerpt string.
  */
 function all_excerpts_get_more_link( $more ) {
-    return $more. ' ...<p><a class="btn btn-secondary understrap-read-more-link" href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read More...',
-		'understrap' ) . '</a></p>';
+    return $more. ' ...';
 }
 add_filter( 'excerpt_more', 'custom_excerpt_more',1000);
 
@@ -131,6 +130,34 @@ function read_time(){
     $est = $m . ' minute' . ($m == 1 ? '' : 's') . ', ' . $s . ' second' . ($s == 1 ? '' : 's');
     return $est;
    
+}
+
+function understrap_entry_footer() {
+	// Hide category and tag text for pages.
+	if ( 'post' === get_post_type() ) {
+		/* translators: used between list items, there is a space after the comma */
+		$categories_list = get_the_category_list( esc_html__( ', ', 'understrap' ) );
+		if ( $categories_list && understrap_categorized_blog() ) {
+			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'understrap' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+		}
+		/* translators: used between list items, there is a space after the comma */
+		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'understrap' ) );
+		if ( $tags_list ) {
+			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'understrap' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+		}
+	}
+	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+	
+	}
+	edit_post_link(
+		sprintf(
+			/* translators: %s: Name of current post */
+			esc_html__( 'Edit %s', 'understrap' ),
+			the_title( '<span class="screen-reader-text">"', '"</span>', false )
+		),
+		'<span class="edit-link">',
+		'</span>'
+	);
 }
 
 
