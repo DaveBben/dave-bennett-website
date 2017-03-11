@@ -17,13 +17,16 @@ h5,
 h6 {
     margin: 2em 0 0.5em;
     font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: bold
+    font-weight: bold;
+    color: #494e52;
 }
 
 p {
     font-size: 1.3em;
     color: #494e52;
     line-height: 1.5em;
+    margin-bottom: 1.3em;
+    
 }
 
 u,
@@ -93,4 +96,15 @@ pre {
 
 pre {
     overflow-x: auto
+}
+
+.entry-title{
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.25em;
+}
+
+.entry-content{
+    margin-top: 0;
+    font-size: .75em;
 }
