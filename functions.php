@@ -127,7 +127,7 @@ function read_time(){
 
     $m = floor($word_count / 200);
     $s = floor($word % 200 / (200 / 60));
-    $est = $m . ' minute' . ($m == 1 ? '' : 's') . ', ' . $s . ' second' . ($s == 1 ? '' : 's');
+    $est = $m . ' minute read';
     return $est;
    
 }
