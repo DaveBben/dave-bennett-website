@@ -12,11 +12,14 @@
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-		<div class="entry-meta">
-
-			<?php understrap_posted_on(); ?>
-
-		</div><!-- .entry-meta -->
+		<div class="post_meta">
+				<div class="read-time">
+				<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;<?php echo read_time(); ?>
+			</div><!-- .entry-meta -->
+			<div class="entry-meta">
+				<?php understrap_posted_on(); ?>
+			</div><!-- .entry-meta -->
+			</div>
 
 	</header><!-- .entry-header -->
 

@@ -120,4 +120,19 @@ function understrap_posted_on() {
 	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
 }
 
+//http://www.thomashardy.me.uk/wordpress-word-count-function
+// https://gist.github.com/mynameispj/3170442
+function read_time(){
+    $content = get_post_field( 'post_content', $post->ID );
+    $word_count = str_word_count( strip_tags( $content ) );
+
+    $m = floor($word_count / 200);
+    $s = floor($word % 200 / (200 / 60));
+    $est = $m . ' minute' . ($m == 1 ? '' : 's') . ', ' . $s . ' second' . ($s == 1 ? '' : 's');
+    return $est;
+   
+}
+
+
+
 

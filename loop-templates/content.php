@@ -15,10 +15,14 @@
 		'</a></h2>' ); ?>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-
+			<div class="post_meta">
+				<div class="read-time">
+				<i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;<?php echo read_time(); ?>
+			</div><!-- .entry-meta -->
 			<div class="entry-meta">
 				<?php understrap_posted_on(); ?>
 			</div><!-- .entry-meta -->
+			</div>
 
 		<?php endif; ?>
 

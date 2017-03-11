@@ -9296,6 +9296,11 @@ pre {
   margin-top: 0;
   font-size: .75em; }
 
+.post_meta {
+  color: #9ba1a6;
+  font-size: 1em;
+  margin-bottom: 1.3em; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
