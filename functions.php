@@ -127,7 +127,12 @@ function read_time(){
 
     $m = floor($word_count / 200);
     $s = floor($word % 200 / (200 / 60));
+	if ($m <= 0){
+		 $est = 'less than one minute read';
+	}
+	else{
     $est = $m . ' minute read';
+	}
     return $est;
    
 }

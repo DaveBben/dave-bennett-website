@@ -64,9 +64,9 @@ window.onload = init;
 function downloadJSAtOnload() {
 var element = document.createElement("script");
 var element2 = document.createElement("script");
-//element.src = "../js/defer-ads.js";
+element.src = "<?php echo get_template_directory_uri(); ?>/js/defer-ads.js";
 element2.src ="https://platform.twitter.com/widgets.js";
-//document.body.appendChild(element);
+document.body.appendChild(element);
 document.body.appendChild(element2);
 }
 if (window.addEventListener)

@@ -11,6 +11,19 @@ body{
      display: none;
  }
 
+ .banner_ads {
+  display: none;
+
+}
+.banner_ads_mobile {
+ display: block;
+
+}
+
+ .navbar-nav {
+     font-size: 1em;
+ }
+
  .sidebar-small{
      display: block;
  }
@@ -96,9 +109,10 @@ pre {
 
 
 .entry-title{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.2;
     margin-bottom: 0.25em;
+    margin-top: 0.5em;
 }
 
 .entry-title a{
@@ -117,7 +131,7 @@ pre {
 
 .post_meta{
     color: #9ba1a6;
-    font-size: 0.75em;
+    font-size: 1em;
     margin-bottom: 0.3em;
 }
 
@@ -196,7 +210,24 @@ code, pre{
 
   .entry-title a{
     font-size: 1.8rem;
+  }
+
+
+.banner_ads {
+  display: block;
+
 }
+.banner_ads_mobile {
+ display: none;
+
+}
+
+.entry-content p{
+    font-size: 1.8em;
+ 
+}
+
+
 
 .entry-title{
     font-size: 2.4rem;
@@ -213,18 +244,10 @@ h6 {
 }
 
 
-
-
-.post_meta{
-   
-    font-size: 1em;
-
 }
 
-.entry-content p{
-    font-size: 1.8em;
- 
-}
+
+
 
 .comments-area p {
     font-size: 1.6em;
@@ -234,11 +257,6 @@ pre,code{
     font-size: 1.4em;
 }
 
-
-
-
-
-}
 
 .twitter-text{
     font-size: 1.6em;
@@ -305,6 +323,10 @@ pre,code{
     float: left;
     padding-right: 1em;
 }
+.adsbygoogle {
+    border-bottom: 0px;
+}
+
 
 
 

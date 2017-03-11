@@ -50,14 +50,18 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
       
 
+        
+
       
-        <li>
-          <a href="mailto:dave@davebennett.tech">
-            <meta itemprop="email" content="dave@davebennett.tech">
-            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
-          </a>
-        </li>
+        
+          <li>
+            <a href="https://www.youtube.com/user/Opensourcegangster" itemprop="sameAs">
+              <i class="fa fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube
+            </a>
+          </li>
+        
       
+
 
       
 
@@ -119,18 +123,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
       
 
-      
-
-      
-        
-          <li>
-            <a href="https://www.youtube.com/channel/UCgJNf0VDJoXzcjvcs_rEFgQ" itemprop="sameAs">
-              <i class="fa fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube
-            </a>
-          </li>
-        
-      
-
+    
       
 
       
@@ -239,7 +232,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
           
         
           <li>
-            <a href="https://www.youtube.com/channel/UCgJNf0VDJoXzcjvcs_rEFgQ" itemprop="sameAs">
+            <a href="https://www.youtube.com/user/Opensourcegangster" itemprop="sameAs">
               <i class="fa fa-3x fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube
             </a>
           </li>
@@ -326,13 +319,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
       
 
-        
-        <li>
-          <a href="mailto:dave@davebennett.tech">
-            <meta itemprop="email" content="dave@davebennett.tech" />
-            <i class="fa fa-3x fa-fw fa-envelope-square" aria-hidden="true"></i> Email
-          </a>
-        </li>
+      
       
       <!--
   <li>
