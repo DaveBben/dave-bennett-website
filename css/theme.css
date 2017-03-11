@@ -9297,7 +9297,8 @@ pre {
   color: #494e52;
   font-size: 1.8rem;
   line-height: 1.2;
-  margin-bottom: 0.25em; }
+  margin-bottom: 0.25em;
+  cursor: pointer; }
 
 .entry-content {
   margin-top: 0;
@@ -9306,7 +9307,7 @@ pre {
 .post_meta {
   color: #9ba1a6;
   font-size: 1em;
-  margin-bottom: 1.3em; }
+  margin-bottom: 0.3em; }
 
 /*
 * Use existing Bootstrap 4 classes and
