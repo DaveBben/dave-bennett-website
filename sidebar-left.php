@@ -189,7 +189,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
   </div>
    <button class="btn btn--inverse" data-toggle="modal" data-target="#myModal">Follow</button>
-
+<hr>
  </div>
 
 
