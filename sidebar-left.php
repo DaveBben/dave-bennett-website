@@ -111,6 +111,14 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
+
+
+
+        <li>
+          <a href="https://play.google.com/store/apps/developer?id=Dave%20Bennett&hl=en" itemprop="sameAs">
+            <i class="fa fa-fw fa-android" aria-hidden="true"></i> Android Apps
+          </a>
+        </li>
       
 
       
@@ -293,6 +301,14 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <i class="fa fa-3x fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
+
+
+             <li>
+          <a href="https://play.google.com/store/apps/developer?id=Dave%20Bennett&hl=en" itemprop="sameAs">
+            <i class="fa fa-3x fa-fw fa-android" aria-hidden="true"></i> Android Apps
+          </a>
+        </li>
+      
       
 
       

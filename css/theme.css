@@ -9305,6 +9305,9 @@ pre {
   margin-bottom: 0.25em;
   cursor: pointer; }
 
+.alert p {
+  font-size: 1em; }
+
 .entry-content {
   margin-top: 0;
   font-size: .75em; }
@@ -9362,35 +9365,8 @@ code, pre {
   color: #292b2c;
   font-size: 1.2em; }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .sidebar-large {
-    display: block; }
-  .sidebar-small {
-    display: none; }
-  .entry-title a {
-    font-size: 1.8rem; }
-  .banner_ads {
-    display: block; }
-  .banner_ads_mobile {
-    display: none; }
-  .entry-content p {
-    font-size: 1.8em; }
-  .entry-title {
-    font-size: 2.4rem; }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 2.3em; } }
-
 .comments-area p {
   font-size: 1.6em; }
-
-pre, code {
-  font-size: 1.4em; }
 
 .twitter-text {
   font-size: 1.6em; }
@@ -9447,6 +9423,34 @@ pre, code {
 
 .adsbygoogle {
   border-bottom: 0px; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .sidebar-large {
+    display: block; }
+  .sidebar-small {
+    display: none; }
+  .entry-title a {
+    font-size: 1.8rem; }
+  .banner_ads {
+    display: block; }
+  .banner_ads_mobile {
+    display: none; }
+  .entry-content p {
+    font-size: 1.8em; }
+  .alert p {
+    font-size: 1.5em; }
+  .entry-title {
+    font-size: 2.4rem; }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2.3em; }
+  pre, code {
+    font-size: 1.4em; } }
 
 /*
 * Use existing Bootstrap 4 classes and
