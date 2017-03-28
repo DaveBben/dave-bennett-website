@@ -30,7 +30,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
   
     <div class="author__avatar">
       
-        <img src="http://davebennett.tech/bio-photo.jpg" class="author__avatar" alt="Dave Bennett" itemprop="image">
+        <img src="https://davebennett.tech/bio-photo.jpg" class="author__avatar" alt="Dave Bennett" itemprop="image">
       
     </div>
   
@@ -178,7 +178,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 	 
     <div class="author__avatar">
       
-        <img src="http://davebennett.tech/bio-photo.jpg" class="author__avatar" alt="Dave Bennett" itemprop="image">
+        <img src="https://davebennett.tech/bio-photo.jpg" class="author__avatar" alt="Dave Bennett" itemprop="image">
       
     </div>
   
@@ -223,7 +223,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
   
     <div class="author__avatar">
       
-        <img src="http://davebennett.tech/bio-photo.jpg" class="author__avatar" alt="Dave Bennett" itemprop="image">
+        <img src="https://davebennett.tech/bio-photo.jpg" class="author__avatar" alt="Dave Bennett" itemprop="image">
       
     </div>
   
