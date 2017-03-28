@@ -9209,7 +9209,7 @@ h1.navbar-brand a:hover {
   display: block; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen",  "Ubuntu", "Cantarell", "Fira Sans",  "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen",  "Ubuntu", "Cantarell", "Fira Sans",  "Droid Sans", "Helvetica Neue", sans-serif;
   color: #494e52; }
 
 .sidebar-large {
@@ -9363,7 +9363,7 @@ pre {
 
 code, pre {
   color: #292b2c;
-  font-size: 1.2em; }
+  font-size: 1em; }
 
 .comments-area p {
   font-size: 1.6em; }
@@ -9450,7 +9450,7 @@ code, pre {
   h6 {
     font-size: 2.3em; }
   pre, code {
-    font-size: 1.4em; } }
+    font-size: 1em; } }
 
 /*
 * Use existing Bootstrap 4 classes and
