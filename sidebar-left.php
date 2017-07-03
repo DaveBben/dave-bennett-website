@@ -176,9 +176,10 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
   	<div class="sidebar-small">
 		  
 	 
-    <div class="author__avatar">
+    <div class="author__avatar-small">
       
         <img src="https://davebennett.tech/bio-photo.jpg" class="author__avatar" alt="Dave Bennett" itemprop="image">
+          <button class="btn btn--inverse" data-toggle="modal" data-target="#myModal">Follow</button>
       
     </div>
   
@@ -192,12 +193,8 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
     
   </div>
 
-  <div class="author__urls-wrapper">
-   
-
-  </div>
-   <button class="btn btn--inverse" data-toggle="modal" data-target="#myModal">Follow</button>
-<hr>
+ 
+<hr id="special-line">
  </div>
 
 

@@ -123,7 +123,7 @@ pre {
 }
 
 code, pre{
-    color: #bd4147;
+    // color: #bd4147;
 }
 
 
@@ -134,7 +134,7 @@ code, pre{
 
 
 .entry-title{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     margin-bottom: 0.25em;
     margin-top: 0.5em;
@@ -143,7 +143,7 @@ code, pre{
 .entry-title a{
     font-weight: bold;
     color: #494e52;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     line-height: 1.2;
     margin-bottom: 0.25em;
     cursor: pointer;
@@ -243,16 +243,17 @@ code, pre{
 
 
  .sidebar-small img{
-    width: 30%;
+    width: 100%;
     float: left;
     
  }
 
  .author__content-small{
     padding-left: 10px;
-
     float: left;
     width: 56%;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
  }
 
  .sidebar-small h3{
@@ -266,7 +267,11 @@ code, pre{
  }
 
  .sidebar-small button {
-    width: 114px;
+     /* width: 114px; */
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
  }
 
  .modal-social{
@@ -333,7 +338,7 @@ code, pre{
 }
 
 .entry-content p{
-    font-size: 1.7em;
+    // font-size: 1.7em;
  
 }
 
@@ -433,6 +438,18 @@ h4 {
     line-height: 1.22222222;
     /* (22px / 18px */
   }
+}
+
+.author__avatar-small{
+    width: 40%;
+    float: left;
+}
+
+#special-line{
+        width: 100%;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    margin-top: 10px;
 }
 
 

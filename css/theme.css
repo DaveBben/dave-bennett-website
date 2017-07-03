@@ -565,7 +565,6 @@ samp {
 code {
   padding: 0.2rem 0.4rem;
   font-size: 90%;
-  color: #bd4147;
   background-color: #f7f7f9;
   border-radius: 0.25rem; }
   a > code {
@@ -9209,7 +9208,10 @@ h1.navbar-brand a:hover {
   display: block; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen",  "Ubuntu", "Cantarell", "Fira Sans",  "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 
+ "Segoe UI", "Roboto", "Oxygen", 
+ "Ubuntu", "Cantarell", "Fira Sans", 
+ "Droid Sans", "Helvetica Neue", sans-serif;
   color: #333333; }
 
 .sidebar-large {
@@ -9303,14 +9305,11 @@ samp,
 pre {
   font-family: Monaco, Consolas, "Lucida Console", monospace; }
 
-code, pre {
-  color: #bd4147; }
-
 .entry-content a {
   color: #167ac6; }
 
 .entry-title {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   line-height: 1.2;
   margin-bottom: 0.25em;
   margin-top: 0.5em; }
@@ -9318,7 +9317,7 @@ code, pre {
 .entry-title a {
   font-weight: bold;
   color: #494e52;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   line-height: 1.2;
   margin-bottom: 0.25em;
   cursor: pointer; }
@@ -9389,13 +9388,15 @@ code, pre {
   font-size: 1.6em; }
 
 .sidebar-small img {
-  width: 30%;
+  width: 100%;
   float: left; }
 
 .author__content-small {
   padding-left: 10px;
   float: left;
-  width: 56%; }
+  width: 56%;
+  /* padding-bottom: 20px; */
+  /* margin-bottom: 20px; */ }
 
 .sidebar-small h3 {
   margin-top: 0.5em;
@@ -9406,7 +9407,11 @@ code, pre {
   margin-bottom: 0.1em; }
 
 .sidebar-small button {
-  width: 114px; }
+  /* width: 114px; */
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  float: left; }
 
 .modal-social {
   list-style: none; }
@@ -9453,8 +9458,6 @@ code, pre {
     display: block; }
   .banner_ads_mobile {
     display: none; }
-  .entry-content p {
-    font-size: 1.7em; }
   .entry-title {
     font-size: 2.4rem; } }
 
@@ -9523,6 +9526,16 @@ h4 {
   h4 {
     line-height: 1.22222222;
     /* (22px / 18px */ } }
+
+.author__avatar-small {
+  width: 40%;
+  float: left; }
+
+#special-line {
+  width: 100%;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  margin-top: 10px; }
 
 /*
 * Use existing Bootstrap 4 classes and
