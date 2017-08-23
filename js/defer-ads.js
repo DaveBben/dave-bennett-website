@@ -1,5 +1,4 @@
-//This must be repeated to the number of ads on the page
-(adsbygoogle = window.adsbygoogle || []).push({});
-(adsbygoogle = window.adsbygoogle || []).push({});
-(adsbygoogle = window.adsbygoogle || []).push({});
-(adsbygoogle = window.adsbygoogle || []).push({});
+//dynamic --https://stackoverflow.com/questions/25095912/how-do-you-use-multiple-adsense-units-on-one-page
+[].forEach.call(document.querySelectorAll('.adsbygoogle'), function(){
+    (adsbygoogle = window.adsbygoogle || []).push({});
+});
