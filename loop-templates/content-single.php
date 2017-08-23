@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Single post partial template.
  *
@@ -37,8 +38,33 @@
 			</div>
 
 	</header><!-- .entry-header -->
+			<?php $yt = get_post_meta(get_the_ID(), 'my_meta_box_text', true);
+				if (isset($yt) && $yt !== '') { ?>
+					<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" width="300" height="150" allowfullscreen="allowfullscreen" data-src="//www.youtube.com/embed/<?php echo $yt ?> "></iframe></div>
+					<?php 
+				}
+				else{
+					 echo get_the_post_thumbnail( $post->ID, 'full' ); 
+					
+				}
+			?>
 
-	<!--<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>-->
+<div class="banner_ads">
+	<!-- In page Links -->
+	<ins class="adsbygoogle"
+		style="display:inline-block;width:728px;height:15px"
+		data-ad-client="ca-pub-6594501022141871"
+		data-ad-slot="8591837725"></ins>
+	</div>
+	<div class="banner_ads_mobile">
+	<!-- Responsive Link Ads -->
+		<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-6594501022141871"
+		data-ad-slot="6223025728"
+		data-ad-format="link"></ins>
+	</div>
+	<hr>
 
 	<div class="entry-content">
 
