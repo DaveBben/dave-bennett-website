@@ -33,7 +33,7 @@
 					
 				}
 			?>
-
+<hr>
 	<!-- Responsive Link Ads -->
 		<ins class="adsbygoogle"
 		style="display:block"
