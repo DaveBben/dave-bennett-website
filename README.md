@@ -1,7 +1,7 @@
 
 # Dave Bennett Website
 
-This is my customized wordpress website: <a href="https://www.davebennett.tech/">Dave Bennett.Tech </a>
+This is my customized wordpress theme for my Website: <a href="https://www.davebennett.tech/">Dave Bennett.Tech </a>
 
 Based on the Understrap Wordpress theme 
 Website: [https://understrap.com](https://understrap.com)
@@ -13,3 +13,5 @@ Run: `$ npm install`
 
 To work and compile your Sass files on the fly start:
 `$ gulp watch`
+
+**Note that there are some hard-coded values in header and footer and throughout the template that would need to be removed**
