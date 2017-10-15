@@ -203,9 +203,4 @@ function cd_meta_box_save( $post_id ) {
     // Probably a good idea to make sure your data is set
     if( isset( $_POST['my_meta_box_text'] ) )
         update_post_meta( $post_id, 'my_meta_box_text', wp_kses( $_POST['my_meta_box_text'], $allowed ) );
-}
-
- 
-?>
-
-
+}?>
