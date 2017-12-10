@@ -12,13 +12,13 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 <div class="wrapper" id="single-wrapper">
 
-	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row">
 
 			<!-- Do the left sidebar check -->
-			
-			<div class="col-md-8 content-area custom-content-area" id="primary">
+			<div class="col-md-8 center-article">
+
 			<main class="site-main" id="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -46,6 +46,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 			<?php get_sidebar( 'right' ); ?>
 
 		<?php endif; ?>
+		</div>
 
 	</div><!-- .row -->
 

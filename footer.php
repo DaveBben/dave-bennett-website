@@ -13,31 +13,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_sidebar( 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
 
-	<div class="<?php echo esc_html( $container ); ?>">
 
-		<div class="row">
-
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-						
-					</div><!-- .site-info -->
-
-				</footer><!-- #colophon -->
-
-			</div><!--col end -->
-
-		</div><!-- row end -->
-
-	</div><!-- container end -->
-
-</div><!-- wrapper end -->
-
-</div><!-- #page -->
+</div><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>
 
@@ -63,11 +41,11 @@ window.onload = init;
 <script type="text/javascript">
 function downloadJSAtOnload() {
 var element = document.createElement("script");
-var element2 = document.createElement("script");
+// var element2 = document.createElement("script");
 element.src = "<?php echo get_template_directory_uri(); ?>/js/defer-ads.js";
-element2.src ="https://platform.twitter.com/widgets.js";
+// element2.src ="https://platform.twitter.com/widgets.js";
 document.body.appendChild(element);
-document.body.appendChild(element2);
+// document.body.appendChild(element2);
 }
 if (window.addEventListener)
 window.addEventListener("load", downloadJSAtOnload, false);
@@ -79,3 +57,4 @@ else window.onload = downloadJSAtOnload;
 <!--Defer-->
 
 </html>
+

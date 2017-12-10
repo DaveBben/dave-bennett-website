@@ -23,7 +23,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 <div class="wrapper" id="wrapper-index">
 
-	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row">
 
@@ -35,7 +35,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 				<?php if ( have_posts() ) : ?>
 
 					<?php /* Start the Loop */ ?>
-
+				
 					<?php while ( have_posts() ) : the_post(); ?>
 
 						<?php
@@ -49,6 +49,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 						?>
 
 					<?php endwhile; ?>
+					
 
 				<?php else : ?>
 

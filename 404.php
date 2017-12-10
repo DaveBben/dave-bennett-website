@@ -6,16 +6,21 @@
  */
 
 get_header();
-?>
-<div class="wrapper" id="404-wrapper">
 
-	<div class="container" id="content">
+$container   = get_theme_mod( 'understrap_container_type' );
+$sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
+
+?>
+
+<div class="wrapper" id="error-404-wrapper">
+
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row">
 
-			<div class="content-area" id="primary">
+			<div class="col-md-12 content-area" id="primary">
 
-				<main class="site-main" id="main" role="main">
+				<main class="site-main" id="main">
 
 					<section class="error-404 not-found">
 
@@ -58,13 +63,13 @@ get_header();
 							<?php endif; ?>
 
 							<?php
-							/* translators: %1$s: smiley */
-							$archive_content = '<p>' . sprintf( __( 'Try looking in the monthly archives. %1$s',
-							'understrap' ), convert_smilies( ':)' ) ) . '</p>';
-							the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-							?>
 
-							<?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>
+							/* translators: %1$s: smiley */
+							$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'understrap' ), convert_smilies( ':)' ) ) . '</p>';
+							the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
+
+							the_widget( 'WP_Widget_Tag_Cloud' );
+							?>
 
 						</div><!-- .page-content -->
 
@@ -74,7 +79,7 @@ get_header();
 
 			</div><!-- #primary -->
 
-		</div> <!-- .row -->
+		</div><!-- .row -->
 
 	</div><!-- Container end -->
 
