@@ -39,7 +39,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
     <h3 class="author__name" itemprop="name">Dave Bennett</h3>
     
       <p class="author__bio" itemprop="description">
-       Web Developer and YouTuber
+      Software Developer & YouTube Technology Content Creator
       </p>
     
   </div>
@@ -53,7 +53,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
           </li>
 
         <li>
-          <a href="https://twitter.com/DaveBben" itemprop="sameAs">
+          <a href="https://twitter.com/_davebennett" itemprop="sameAs">
             <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
           </a>
         </li>
